@@ -13,7 +13,7 @@ def display_multiplication_table(table):
 
 def user_menu():
     while True:
-        choice = input("Would you like to create a new table? (type 'yes' or no')").strip().lower()
+        choice = input("Would you like to create a multiplication table? (type 'yes' or no')").strip().lower()
         if choice == 'yes':
             table = create_multiplication_table()
             display_multiplication_table(table)
